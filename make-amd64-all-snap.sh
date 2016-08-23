@@ -16,7 +16,7 @@ if [ -z $PROJECT ] ; then
 	PROJECT=snappy-16
 fi
 
-/jenkins-build-script/ubuntu-device-flash --verbose core 16 \
+./ubuntu-device-flash --verbose core 16 \
 	--channel $CHANNEL \
 	--size 4 \
 	--enable-ssh \
